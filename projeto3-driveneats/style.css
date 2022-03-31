@@ -337,6 +337,7 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    
   }
   .produtos::-webkit-scrollbar {
     display: none;
