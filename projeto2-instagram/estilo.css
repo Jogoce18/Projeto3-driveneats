@@ -1,0 +1,365 @@
+*  {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .website {
+    background-color: #fafafa;
+    margin: 0 auto;
+    width: 935px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .topo {
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  h2 {
+  font-weight: bolder;
+  font-size: 14px;
+  }
+
+ p {
+  color: #8e8e8e;
+  font-size: 11px;
+  }
+
+ h6 {
+  color: #c7c7c7;
+  font-size: 11px;
+ }
+  .icone {
+    color: rgba(red, red, red, 1);
+    padding-left: 560px;
+    position: absolute;
+  }
+  .icons {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+  .icon1 {
+    background-color: #fafafa;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20px;
+    width: 1px;
+  }
+  .icons2 {
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+  }
+  
+  #divBusca {
+    background-color: #ffffff;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+  }
+  
+  #txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 12px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    align-items: center;
+  }
+  
+  .menu-mobile {
+    display: none;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    width: 100%;
+    height: 54px;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .caixastories {
+    margin: 0 auto;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    width: 614px;
+  }
+  .story {
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    width: 614px;
+    height:100%;
+  
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    padding: 5px;
+    padding-left: 55%;
+  
+    overflow: hidden;
+    border: 1px solid #dbdbdb;
+  }
+  .story img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    background-color: white;
+    padding: 1px;
+    border-radius: 100%;
+  }
+  
+  .story div {
+    margin-right: 7px;
+    
+  }
+  
+  .borda {
+    background: linear-gradient(45deg, gold, fuchsia);
+    padding: 3px;
+    border-radius: 100%;
+  }
+  
+  .planototal{
+    display: flex;
+  }
+  .posts {
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    width: 614px;
+    height: 100%;
+  }
+  .topopost {
+    display: flex;
+  }
+  
+  .topopost img {
+    margin-left: 10px;
+    margin-right: 15px;
+    height: 32px;
+    width: 32px;
+  }
+  .finalpost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .postagem img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .menu-icon {
+    margin-left: 460px;
+    padding-top: 10px;
+  }
+  
+  .reactions {
+    height: 30px;
+    padding-left: 8px;
+    align-items: center;
+    font-size: 14px;
+  
+    position: relative;
+  }
+  
+
+  .posicionamento {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    bottom: -20px;
+    left: 0;
+  }
+  
+  .reactions img {
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .reactions strong {
+    font-weight: bolder;
+  }
+  .post-divider {
+    background-color: #fafafa;
+    width: 630px;
+    height: 54px;
+  }
+  .side-bar {
+    position:fixed;
+    margin-left: 614px;
+    width: 293px;
+    margin-top: 24px;
+    padding: 10px;
+    background-color: #fafafa;
+  }
+  
+  .side-bar-menu {
+    display: flex;
+  }
+  
+  .side-bar-title {
+    margin-left: 18px;
+    margin-top: 5px;
+  }
+  
+  .side-bar-content {
+    right: 0;
+    margin-top: 24px;
+  }
+  
+  .side-sub-post {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .side-sub-post img {
+    margin-right: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 32px;
+    width: 32px;
+  }
+  
+  .side-box {
+    width: 230px;
+    position: relative;
+  }
+  
+  .follow {
+    color: #139ef2;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .post-divider {
+    background-color: #fafafa;
+    width: 630px;
+    height: 60px;
+  }
+  
+  .margem-inferior {
+    width: 100%;
+    height: 74px;
+  }
+  
+  .barra-inferior {
+    display: none;
+  }
+  @media (max-width: 934px) {
+    .website {
+      width: 100%;
+    }
+  
+    .firstsection {
+      width: 100%;
+    }
+  
+    .planototal {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .story {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .posts {
+      margin: 0 auto;
+    }
+  
+    .side-bar {
+      display: none;
+    }
+  }
+  @media (max-width: 613px) {
+    .topo{
+      display: none;
+    }
+  
+    .menu-mobile {
+      display: flex;
+    }
+  
+    .planototal {
+      margin: 0 0;
+    }
+  
+    .posts {
+      width: 100%;
+    }
+  
+    .post-divider {
+      width: 100%;
+    }
+  
+    .barra-inferior {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      position: fixed;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%;
+      bottom: 0;
+  
+      background-color: white;
+      height: 54px;
+    }
+  
+    .caixastories {
+      width: 100%;
+    }
+  
+    .story {
+      border: 0px solid #fafafa;
+      background-color: #fafafa;
+      width: 100%;
+      height: 121px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 98%;
+    }
+  
+    .icone {
+      display: none;
+    }
+  }
+  
+  
