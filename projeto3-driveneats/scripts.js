@@ -622,4 +622,5 @@ function selecionar1() {
     a.target = "_blank";
     a.href = url;
     a.click();
+    
   }
